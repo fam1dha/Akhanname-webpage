@@ -29,11 +29,46 @@
         </div>
       </div>
       <br>
-      <div>
-          <label for= "year of birth"></label>
-          <input type="number"  name="year of birth" id="year of birth" min="1900" max="2070" step="1" placeholder="Year of birth eg 1998 if born in 1998">
+      <form action="results.html" method="GET">
+        <div class="input-wrapper">
+            <label for= "year of birth"> </label>
+            <input type= "number" name= "year of birth" id= "year of birth" style= "width: 500px;" step= "1" placeholder= "Year of birth eg 1998 if born in 1998" required= "required"/>
+            
+  
+        </div>
+        <div>
+            <label for= "month of birth"> </label>
+            <input type= "number" name= "month of birth" id= "month of birth" style= "width: 500px;" min= "1" max= "12" step= "1" placeholder= "month of birth eg 2 if born in February" required= "required"/>
+  
+        </div>
+        <div>
+            <label for= "date of birth"> </label>
+            <input type= "number" name= "date of birth" id= "date of birth" style= "width: 500px;" min= "1" max= "31" step= "1" placeholder= "date of birth eg 2 if born in 2nd February" required= "required"/>
+            
+        </div>
+        <div class="radio-wrapper">
+            <p>gender</p>
+            <div class="radio-container">
+                <input checked="checked" type="radio" name="gender" value="1" id="male" />
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="0" id="female" />
+                <label for="female">Female</label>
+            </div>
+        </div>
+        <br>
 
-      </div>
+        <div class="button-wrapper">
+            <button type="submit" style="width: 110px; height: 50px; font-size:20px;" class="btn btn-default">Get name</button>
+
+        </div>
+
+
+
+
+  
+
+      </form>
+      
 
 
     

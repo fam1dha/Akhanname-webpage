@@ -10,3 +10,65 @@ body {
     transform: translate(-50%, -50%);
     color: white;
   }
+  div.radio-wrapper {
+    text-align: justify;
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 38%;
+  }
+  
+  div.radio-container {
+    background-color: burlywood;
+    display: inline-block;
+    border: 10px solid burlywood;
+  }
+  
+  div.radio-container input[type=radio] {
+    opacity: 0;
+    display: none;
+    margin: 0;
+    outline: none;
+  }
+  
+  div.radio-container input[type="radio"]:checked+label {
+    background-color: burlywood;
+    color: white;
+    animation-name: radio-active;
+    animation-duration: 0.2s;
+  }
+  
+  @keyframes radio-active {
+    from {
+        transform: scale(0.6, 0.6);
+    }
+    to {
+        transform: scale(1, 1);
+    }
+  }
+  
+  div.radio-container label {
+    padding: 0.8em;
+    cursor: pointer;
+    background: none;
+    display: inline-block;
+    outline: none;
+    letter-spacing: 0.1em;
+    background-color: white;
+    color: black;
+    transition: all ease-in-out 0.1s;
+  }
+  div.button-wrapper {
+    background-color: burlywood; 
+    font-size: large;
+    font-weight: bolder;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    font-style: oblique;
+    
+    
+
+  }
