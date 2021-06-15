@@ -1,7 +1,8 @@
-#My website displays a brief description about me ####By Famidha Galawe
+#My web application gives you your Akhan name####By Famidha Galawe
 
 Description
-This is my simple website, as I progress learning more about building web applications together with other programming languages.
+A  website, that takes a user's birthday details and gender, and allows you to know the day you were born together
+with your ghanian name.
 Setup/Installation Requirements
 *Terminal
 
@@ -9,7 +10,7 @@ Visual Studio Code
 Chrome Browser
 Known Bugs
 Languages used
-HTML and CSS 
+HTML and CSS and Javascript
 ##Support and contact details famidha.galawe@student.moringaschool.com 
 ##My gh-pages link 
 ### License
