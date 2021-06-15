@@ -12,7 +12,7 @@ Known Bugs
 Languages used
 HTML and CSS and Javascript
 ##Support and contact details famidha.galawe@student.moringaschool.com 
-##My gh-pages link 
+##My gh-pages link https://fam1dha.github.io/Akhanname-webpage/
 ### License
 *Licensed under the [MIT LICENSE](LICENSE)*
 Copyright (c) 2021 *Famidha Galawe)
